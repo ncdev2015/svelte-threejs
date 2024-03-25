@@ -22,4 +22,4 @@ This template should help get you started developing with Svelte in Vite.
 
 ## Example
 
-![3D Viewer](https://github.com/ncdev2015/svelte-threejs-sample/blob/main/public/1.png)
+![3D Viewer](https://github.com/ncdev2015/svelte-threejs-sample/blob/main/public/2.png)
