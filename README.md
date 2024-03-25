@@ -20,5 +20,6 @@ This template should help get you started developing with Svelte in Vite.
 
 * npm run build
 
+## Example
 
-
+![3D Viewer](https://github.com/ncdev2015/svelte-threejs-sample/blob/main/public/1.png)
