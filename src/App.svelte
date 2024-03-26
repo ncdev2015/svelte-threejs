@@ -1,15 +1,13 @@
 <script>
-  import Viewer from './lib/Viewer.svelte'
+  import { onMount } from 'svelte'
+  import { createScene } from './lib/scene'
+
+  let el;
+  
+  onMount(() => {
+    createScene(el);
+  });
+
 </script>
 
-<main>
-
-  <div>
-    <Viewer />
-  </div>
-
-</main>
-
-<style>
-  
-</style>
+<canvas bind:this={el}></canvas>
