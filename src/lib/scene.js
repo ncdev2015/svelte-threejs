@@ -23,9 +23,7 @@ camera.position.set(2,2.5,3);
 let renderer;
 
 const animate = () => {
-  requestAnimationFrame(animate);
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
+  requestAnimationFrame(animate);  
   renderer.render(scene, camera);
   stats.update();
 
